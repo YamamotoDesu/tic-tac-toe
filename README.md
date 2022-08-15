@@ -2,7 +2,7 @@
 
 ```swift
 // MARK: - ReplayKit
-	fileprivate func processTouchRecord() {
+  fileprivate func processTouchRecord() {
     let recorder = RPScreenRecorder.shared()
     if !recorder.isRecording {
       recorder.startRecording() { (error) in
@@ -25,5 +25,5 @@
       })
     }
 
-	}
+  }
 ```
